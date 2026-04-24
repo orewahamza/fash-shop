@@ -1,0 +1,30 @@
+# MongoDB Atlas Connection String Template
+
+## Copy this and replace with your details:
+
+```
+mongodb+srv://admin:YOUR_PASSWORD@cluster0.XXXXX.mongodb.net/e-commerce?retryWrites=true&w=majority
+```
+
+## Replace:
+1. `YOUR_PASSWORD` → Your database user password
+2. `cluster0.XXXXX` → Your cluster name (shown in Atlas)
+
+## Example:
+If your password is `MyPass123` and cluster is `cluster0.abc123`
+
+```
+mongodb+srv://admin:MyPass123@cluster0.abc123.mongodb.net/e-commerce?retryWrites=true&w=majority
+```
+
+## Steps:
+1. Go to: https://cloud.mongodb.com/
+2. Click "Connect" on your cluster
+3. Choose "Connect your application"
+4. Copy the connection string
+5. Replace the password placeholder
+6. Add `/e-commerce` at the end (database name)
+7. Paste it in backend\.env
+
+## Your current .env file needs this line updated:
+MONGODB_URL=mongodb+srv://admin:YOUR_PASSWORD_HERE@cluster0.xxxxx.mongodb.net/e-commerce?retryWrites=true&w=majority

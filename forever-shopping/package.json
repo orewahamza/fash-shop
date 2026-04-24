@@ -1,0 +1,12 @@
+{
+  "name": "forever-shopping-root",
+  "version": "1.0.0",
+  "scripts": {
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install && cd ../admin && npm install",
+    "build-all": "cd frontend && npm run build && cd ../admin && npm run build",
+    "start": "cd backend && node server.js"
+  },
+  "engines": {
+    "node": ">=20.0.0 <23.0.0"
+  }
+}

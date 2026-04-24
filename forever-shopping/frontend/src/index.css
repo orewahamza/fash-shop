@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --color-background: #050505;
+    --color-text: #E0F2FE; /* Light blue text */
+    --color-primary: #EF4444;
+    --color-secondary: #3B82F6;
+    --gradient-brand: linear-gradient(90deg, #EF4444 0%, #3B82F6 100%);
+    --gradient-brand-soft: linear-gradient(90deg, rgba(239,68,68,0.9) 0%, rgba(59,130,246,0.9) 100%);
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: 'Outfit', sans-serif;
+    -webkit-font-smoothing: antialiased; /* Makes the text look sharper and more premium */
+}
+
+/* Apply boldness to headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+}
+
+/* Sidebar/Nav active states */
+a.active hr {
+    display: block;
+    background-image: var(--gradient-brand);
+}
+
+/* hide default scroll bar of product img */
+::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width: 648px) {
+    a.active {
+        background-image: var(--gradient-brand-soft);
+        color: #ffffff;
+    }
+}
+
+.icon-red {
+    filter: brightness(0) saturate(100%) invert(36%) sepia(94%) saturate(1636%) hue-rotate(341deg) brightness(98%) contrast(96%);
+}

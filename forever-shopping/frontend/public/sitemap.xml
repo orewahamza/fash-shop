@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>/</loc></url>
+  <url><loc>/collection</loc></url>
+  <url><loc>/about</loc></url>
+  <url><loc>/contact</loc></url>
+  <url><loc>/login</loc></url>
+  <url><loc>/sign-up</loc></url>
+  <url><loc>/cart</loc></url>
+  <url><loc>/place-order</loc></url>
+  <url><loc>/orders</loc></url>
+  <url><loc>/verify</loc></url>
+  <url><loc>/forever-shop/profile</loc></url>
+  <url><loc>/host</loc></url>
+</urlset>

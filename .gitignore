@@ -1,0 +1,44 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Testing
+coverage
+
+# Production
+build
+dist
+
+# Misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# Editor
+.vscode
+.idea
+
+# Secrets
+**/*.json
+!package.json
+!package-lock.json
+!tsconfig.json
+!jsconfig.json
+!vercel.json
+!frontend/public/sitemap.xml
+!admin/public/vite.svg
+!frontend/public/vite.svg
+
+# Specific secret files to ignore
+forever-shopping/e-com-fb9bb-firebase-adminsdk-fbsvc-165cbd2675.json
