@@ -1,4 +1,4 @@
-# 🛍️ Forever Shopping - Modern E-Commerce Platform
+# 🛍️ fash shop - Modern E-Commerce Platform
 
 A full-stack e-commerce application built with the MERN stack (MongoDB, Express.js, React, Node.js) featuring a complete order management system, multiple payment gateways, and an intuitive admin panel.
 
